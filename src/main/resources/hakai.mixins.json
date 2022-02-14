@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hakai.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftClientAccessor",
+
+    "client/ClientConnectionMixin",
+    "client/CommandSuggestorMixin",
+    "client/HandshakePacketMixin",
+    "client/MinecraftClientMixin",
+    "client/ClientWorldMixin",
+
+    "entity/ClientPlayerEntityMixin",
+    "entity/ClientPlayerInteractionManagerMixin",
+    "entity/CapeRenderMixin",
+    "entity/PlayerListEntryMixin",
+
+    "ui/TitleScreenMixin",
+    "ui/BookEditScreenMixin",
+    "ui/InGameHudMixin",
+    "ui/RecipeBookMixin",
+    "ui/HandledScreenMixin",
+    "ui/costumui/ClickableWidgetMixin",
+    "ui/MultiplayerScreenMixin",
+    "ui/costumui/MultiplayerListEntryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

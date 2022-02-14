@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+include "viafabric-mc18"
+include "viafabric-mc114"
+include "viafabric-mc115"
+include "viafabric-mc116"
+include "viafabric-mc117"
+include "viafabric-mc118"
